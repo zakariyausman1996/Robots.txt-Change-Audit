@@ -11,11 +11,11 @@ Daily snapshots of `robots.txt` for Studocu and its main competitors, used for G
 - brainly.com
 
 ## Structure
-Each run writes to `snapshots/<YYYY-MM-DD>/<domain>.txt`. Diff any two dates with:
+`snapshots/<YYYY-MM-DD>/<domain>.txt` — one file per domain per day. `changelog/<domain>.md` — per-domain, change-only log; a dated entry is added only when that domain's robots.txt actually changed since its last known-good snapshot.
 
-```bash
-diff snapshots/2026-09-23/chegg.com.txt snapshots/2026-09-24/chegg.com.txt
-```
-
-## Known issues
-- `quizlet.com` returned an HTML captcha/WAF challenge page instead of robots.txt on 2026-09-23 (bot detection). Needs a browser-based fetch or different user-agent/retry strategy to get a clean snapshot.
+## How it's fetched
+- **Automated daily** — a cloud routine fetches via WebFetch, cron 7:00 UTC. Works even if your laptop is off. Some domains run bot/WAF protection that can block this on any given day — expected, not a bug.
+- **On-demand, full 6/6 coverage** — `scripts/fetch_robots.py` (Playwright driving the real installed Chrome, headed mode), run locally when asked. Gets past the bot protection that blocks the automated fetch. Run it with:
+  ```bash
+  python3 scripts/fetch_robots.py https://www.chegg.com/robots.txt
+  ```
