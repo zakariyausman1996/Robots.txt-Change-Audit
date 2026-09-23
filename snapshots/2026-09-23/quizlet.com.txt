@@ -1,1 +1,5 @@
-[FETCH FAILED] HTTP 403 Forbidden returned by https://quizlet.com/robots.txt — response body was not retrieved (bot/WAF block). No robots.txt content available for this date.
+[FETCH FAILED 2026-09-23]
+URL: https://quizlet.com/robots.txt
+Result: HTTP 403 Forbidden (WAF/bot-detection challenge, response body not retrievable via WebFetch).
+This matches the known issue logged in README.md for quizlet.com (captcha/WAF challenge on prior fetch attempts).
+No usable robots.txt content was returned; not treated as a real diff against the previous snapshot.
