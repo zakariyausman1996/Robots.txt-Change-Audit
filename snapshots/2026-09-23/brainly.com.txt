@@ -1,4 +1,4 @@
-# Brainly Robots.txt 31.07.2017
+#Brainly Robots.txt 31.07.2017
 
 User-agent: *
 Allow: /ads.txt
