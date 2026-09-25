@@ -1,0 +1,1 @@
+[FETCH FAILED 2026-09-25] WebFetch returned a challenge/error page instead of robots.txt content: "A required part of this site couldn't load. This may be due to a browser extension, network issues, or browser settings." This matches the known, expected intermittent Cloudflare-style block for scribd.com (non-deterministic, not a bug).
