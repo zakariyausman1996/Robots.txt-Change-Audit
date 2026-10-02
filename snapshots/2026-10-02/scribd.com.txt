@@ -1,0 +1,1 @@
+[FETCH FAILED 2026-10-02] WebFetch returned an error page ("A required part of this site couldn't load") instead of robots.txt content (known intermittent issue for scribd.com).
