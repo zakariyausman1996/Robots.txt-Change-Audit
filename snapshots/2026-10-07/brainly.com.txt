@@ -1,0 +1,185 @@
+User-agent: *
+Allow: /ads.txt
+Disallow: /advertisements/gift_clicks
+Disallow: /app/ask?*
+Disallow: /buddies/invite/
+Disallow: /buddies_new/invite/
+Disallow: /cdn-cgi/l/email-protection
+Disallow: /cdn-cgi/challenge-platform/
+Disallow: /login?*
+Disallow: /question/add?*
+Disallow: /signup?*
+Disallow: /tasks/prev_task/
+Disallow: /tasks/next_task/
+Disallow: /tasks/latex/
+Disallow: /tasks/solve_dynamic/
+Disallow: /users/thank/
+Disallow: /users/view_awards
+Disallow: /notes/
+
+Disallow: /api
+Disallow: /bff
+
+User-agent: Yandex
+
+Disallow: /advertisements/gift_clicks
+Disallow: /app/ask?*
+Disallow: /buddies/invite/
+Disallow: /buddies_new/invite/
+Disallow: /cdn-cgi/l/email-protection
+Disallow: /login?*
+Disallow: /question/add?*
+Disallow: /signup?*
+Disallow: /tasks/prev_task/
+Disallow: /tasks/next_task/
+Disallow: /tasks/latex/
+Disallow: /tasks/solve_dynamic/
+Disallow: /users/thank/
+Disallow: /users/view_awards/
+
+Clean-param: source
+Clean-param: return
+Clean-param: entry
+Host: https://brainly.com
+
+User-agent: SemrushBot-SA
+Disallow: /
+Allow: /ads.txt
+
+User-agent: SemrushBot
+Disallow: /
+Allow: /ads.txt
+
+User-agent: rogerbot
+Disallow: /
+Allow: /ads.txt
+
+User-agent: dotbot
+Disallow: /
+Allow: /ads.txt
+
+User-agent: BLEXBot
+Disallow: /
+Allow: /ads.txt
+
+User-agent: spbot
+Disallow: /
+Allow: /ads.txt
+
+user-agent: SEOdiver
+disallow: /
+Allow: /ads.txt
+
+User-agent: dataprovider
+Disallow: /
+Allow: /ads.txt
+
+User-agent: magpie-crawler
+Disallow: /
+Allow: /ads.txt
+
+User-agent: GetIntent Crawler
+Disallow: /
+Allow: /ads.txt
+
+User-agent: grapeshot
+Disallow:
+
+User-agent: Doubleverify
+Disallow:
+
+User-agent: White ops
+Disallow:
+
+User-agent: moatbot
+Disallow:
+
+User-agent: ias_crawler
+Disallow:
+
+User-agent: forensiq
+Disallow:
+
+User-agent: duckduckbot
+Disallow:
+
+User-agent: Leikibot
+Disallow:
+
+User-agent: Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+Disallow:
+
+User-agent: Baidu-YunGuanCe-SLABot(ce.baidu.com)
+Disallow:
+
+User-agent: Baidu-YunGuanCe-PerfBot(ce.baidu.com)
+Disallow:
+
+User-agent: Baidu-YunGuanCe-VSBot(ce.baidu.com)
+Disallow:
+
+User-agent: SeznamBot
+Disallow: /
+Allow: /ads.txt
+
+User-agent: Sogou web spider
+Disallow: /
+Allow: /ads.txt
+
+User-agent: 360spider
+Disallow: /
+Allow: /ads.txt
+
+User-agent: Baiduspider
+Disallow: /
+Allow: /ads.txt
+
+User-agent: NaverBot
+Disallow: /
+Allow: /ads.txt
+
+User-agent: Yeti
+Disallow: /
+Allow: /ads.txt
+
+User-agent: coccocbot-web
+Disallow: /
+Allow: /ads.txt
+
+User-agent: Qwantify
+Disallow: /
+Allow: /ads.txt
+
+User-agent: Exabot
+Disallow: /
+Allow: /ads.txt
+
+User-agent: Linguee
+Disallow: /
+Allow: /ads.txt
+
+User-agent: SurdotlyBot
+Disallow: /
+Allow: /ads.txt
+
+User-agent: BUbiNG
+Disallow: /
+Allow: /ads.txt
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Twitterbot
+Disallow:
+
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: Facebot
+Disallow:
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
