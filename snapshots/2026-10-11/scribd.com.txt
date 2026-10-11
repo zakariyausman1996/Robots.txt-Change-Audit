@@ -1,0 +1,1 @@
+[FETCH FAILED 2026-10-11] WebFetch returned a non-robots.txt error/challenge response instead of robots.txt content (known intermittent Cloudflare-style "Client Challenge" block for scribd.com).
