@@ -1,0 +1,1 @@
+[FETCH FAILED 2026-10-17] WebFetch returned: The server returned HTTP 403 Forbidden. Site-side bot/WAF block (known recurring issue for quizlet.com).
