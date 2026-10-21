@@ -1,0 +1,1 @@
+FETCH FAILED: Cloudflare-style "Client Challenge" interstitial page returned instead of robots.txt content (known intermittent issue)
