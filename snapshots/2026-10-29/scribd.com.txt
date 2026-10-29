@@ -1,0 +1,1 @@
+FETCH FAILED: WebFetch returned a Cloudflare-style "Client Challenge" / browser-check error page instead of robots.txt content on 2026-10-29. Known intermittent issue for scribd.com.

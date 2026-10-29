@@ -1,0 +1,1 @@
+FETCH FAILED: HTTP 403 Forbidden (WAF/bot block) via WebFetch on 2026-10-29. Known recurring issue for quizlet.com.
