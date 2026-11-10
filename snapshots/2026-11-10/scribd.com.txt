@@ -1,0 +1,1 @@
+FETCH FAILED: HTML "Client Challenge" page returned instead of robots.txt (Cloudflare-style bot challenge, intermittent)
