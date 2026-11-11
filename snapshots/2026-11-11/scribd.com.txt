@@ -1,0 +1,1 @@
+FETCH FAILED — returned a Cloudflare-style "Client Challenge" / "A required part of this site couldn't load" page instead of robots.txt content (known intermittent block, non-deterministic). Retried twice today, both attempts returned the challenge page.

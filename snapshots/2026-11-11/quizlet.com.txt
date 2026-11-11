@@ -1,0 +1,1 @@
+HTTP 403 Forbidden (fetch failed — known recurring site-side bot/WAF block, not fixable from this sandbox)
